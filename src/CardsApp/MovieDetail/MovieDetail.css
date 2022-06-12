@@ -1,0 +1,54 @@
+.pos-rel{
+    position: relative;
+    height: 10rem;
+}
+.poster-img{
+    opacity: 0.2;
+    width: 100%;
+}
+.movie-detail{
+    margin: 4rem;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    margin-top: 2rem;
+    height: 15rem;
+    
+}
+.pos-abs{
+    position: absolute;
+    top: 0;
+}
+.back-btn{
+    color: white;
+    margin-top: 6rem;
+    text-align: left;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.movie-detail-img{
+  
+    width: 40%;
+    height: 17rem;
+    border-radius: 5px;
+}
+.movie-name-des{
+    color: white;
+    text-align: left;
+    margin-left: 2rem;
+}
+p{
+    margin: 0;
+}
+.m-name{
+    font-size: 2rem;
+
+}
+.m-des{
+    margin-top: 1rem;
+}
+
+.m-release-date{
+    margin-top: 1rem;
+    color: hotpink;
+}
