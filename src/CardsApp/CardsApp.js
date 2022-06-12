@@ -29,7 +29,7 @@ const CardsApp = (props) => {
     let values = moviesCopy?.filter((item) =>
        item?.original_title
         ?.toLowerCase()
-        ?.match(new RegExp(e.target.value, "g"))
+        ?.match(new RegExp(e.target.value?.toLowerCase(), "g"))
     );
     console.log(values);
    
