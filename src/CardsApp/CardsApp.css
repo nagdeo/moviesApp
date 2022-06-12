@@ -1,14 +1,13 @@
 .movies-main{
-   
     color: white;
     display: flex;
     flex-wrap: wrap;
     padding: 0rem 4rem 4rem 4rem;
-    grid-gap: 30px;
+    grid-gap: 2%;
     margin-top: 2rem;
 }
 .search-movie{
-    width: 40rem;
+    width: 40%;
     height: 3rem;
     border-radius: 25px;
     outline: none;
@@ -17,7 +16,8 @@
     margin-top: 6rem;
 }
 .movie{
-    width: 14rem;
+    width: 23%;
+    margin-bottom: 2%;
     position: relative;
     height: 20rem;
 }
